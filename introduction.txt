@@ -1,0 +1,14 @@
+=>react js is a javascript library 
+=>free and open source 
+=>react js developed by facebook developer 
+=>we can create single page applications using react js 
+=>we can web and mobile applications 
+=>learning version is 18.2
+
+===========================================
+why we use react js 
+=>it is a component based architeture 
+=>DOM (DOCUMENT OBJECT MODEL ) is nothing but it can create tree structure html 
+like example if you give header and para then it will create objects of document  like parent child 
+
+=> it uses VDOM virtualDOM for fast rendering 

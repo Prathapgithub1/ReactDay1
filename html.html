@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link:cc></link:cc> -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- this is for developement modules -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- this script is for rendering like VDOM -->
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        let html = document.getElementById('root');
+        let heading = React.createElement('h1', { class: 'heading1' }, "Iam learning React Js from CS WORLD")
+        let para = React.createElement('p', {}, "im adding paraelement")
+        let divElement = React.createElement('div', {}, [heading, para])
+        let root = ReactDOM.createRoot(html)
+        root.render(divElement)
+    </script>
+</body>
+
+</html>
